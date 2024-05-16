@@ -1,0 +1,710 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.tt{
+    display: flex;
+}
+.top{
+    display: none;
+    align-items: center;
+    width: 97%;
+    height: 30px;
+    background-color: black;
+}
+.top p{
+    color: white;
+    font: 0.8em sans-serif;
+    margin-left: 40px;
+}
+.top p z{
+    color: rgb(255, 196, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.all{
+    margin-left: 800px;
+    display: flex;
+    width: 180px;
+    height: 100%;
+
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 196, 0);
+    background-color: transparent;
+    /* border: 1px solid gold; */
+    width: 35px;
+    height: 100%;
+    font-size: 19px;
+}
+.header{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    display: flex;
+    border: 4px solid red;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.headerV2{
+margin-left: 100px;
+}
+.logo{
+    background-color: white;
+    margin-left: 45px;
+    width: 220px;
+    height:100%;
+    /* background-color: blue; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: 100%; */
+}
+.li{
+    cursor: pointer;
+    margin-right: 40px;
+    gap: 20px;
+    color: rgb(152, 9, 9);
+    display: flex;
+    justify-content: center;
+    font: bold 0.95em sans-serif;
+}
+.list:hover{
+    color:black;    
+}
+.hidden{
+    /* background-color: black; */
+    margin-top: -15px;
+    line-height: 5px;
+    margin-left: 665px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    /* z-index: 9; */
+}
+.d1{
+    cursor: pointer;
+    background-color: red;
+    font: bold 1em sans-serif ;
+    border: 2px solid white;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    
+    height: 100%;
+    width: 64px;
+    background-color: aqua;
+    margin-left: 225px;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+.instagram{
+background-color: red;
+}
+.facebook{
+    background-color: rgb(31, 31, 255);
+}
+.fa-brands{
+    font-size: 1.8em;
+    color: white;
+}
+.auto{
+    width: 100%;
+    height: 70vh;
+}
+.auto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+           /*               slider                */
+
+.slider{
+    margin: 120px auto;
+    width: 95%;
+    height: 70vh;
+    /* background-color: blue; */
+    border-radius: 20px;
+    background-image: url(location-voiture-de-luxe-Fes.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: change 25s infinite ;
+  
+}
+@keyframes change {
+    0%
+    {
+        background-image: url(location_de_voiture_de_luxe_a_Perpignan_et_pour_mariage_2048x2048.jpg);
+    }
+    20%
+    {
+        background-image: url(location-voiture-de-luxe-Fes.jpeg.jpg);
+    }
+    
+    40%
+    {
+        background-image: url(penurie-location-voiture-vacances-4.jpg);
+    }
+    60%
+    {
+        background-image: url(pi1.jpg);
+    }
+    80%
+    {
+        background-image: url(slide_0003_pexels-photo-70912.jpg);
+    }
+    100%
+    {
+        background-image: url(774x350_Visuel_Voiture_au_Mois.jpg);
+    }
+}
+
+.text{
+    border-radius: 20px;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(90deg,black,red ); */
+    background-color: black;
+}
+.txt{
+    position: absolute;
+    border-radius: 20px;
+    font: 1em sans-serif;
+    letter-spacing: 1px;
+    margin: -500px 50px;
+    width: 600px;
+    height: 65vh;
+    /* background-color: blueviolet; */
+    color: white;
+
+}
+p{
+    margin-left: 25px ;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+.pp{
+    margin-left: 25px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    
+}
+.x{
+    display: flex;
+}
+.wlcm{
+    color: white;
+    margin-top: 15px;
+    margin-left: 25px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo2{
+   
+    margin-top: 15px;
+    margin-left: 40px ;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 170px;
+    height:60px;
+}
+.logo2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 10px;
+}
+
+
+
+.about{
+    margin-top: 110px;
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    /* border: 4px solid red; */
+}
+.about h1{
+    letter-spacing: 2px;
+    text-shadow: 2px 8px 7px rgb(99, 99, 99);
+    margin-top: 50px;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif   ;
+    text-align: center;
+    color: red;
+}
+.about h4{
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif   ;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.76);
+}
+.P{
+    margin-left: 10%;
+}
+.logab{
+    margin: 15px auto ;
+    width: 170px;
+    height:60px;
+}
+.logab img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 10px;
+}
+.p1{
+   
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.377);
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    width: 80%;
+    height: 27vh;
+    /* background-color: blue; */
+
+}
+.pi1{
+    border: 2px solid transparent;
+    margin-left: 250px;
+    width: 270px;
+    height: 100%;
+    /* animation: move 2s infinite alternate; */
+    /* animation-timing-function:cubic-bezier(.5,.49,.7,.69); */
+}
+@keyframes move {
+    0%{
+        margin-right: 0%;
+    }
+    100%{
+        margin-left: 10%;
+    }
+}
+.pi1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.p2{
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.377);
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 35vh;
+    
+}
+.pi2{
+    border: 2px solid transparent;
+    border-radius: 50px;
+    margin-left: 250px;
+    width: 280px;
+    height: 100%;
+    /* animation: move 2s infinite alternate; */
+    /* animation-timing-function:cubic-bezier(.5,.49,.7,.69); */
+}
+.pi2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.p3{
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.377);
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 29vh;
+}
+.p3 p{
+   margin-top: 5.5vh;
+}
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.socialmediaV2 span{
+    font-size: 20px;
+}
+.adjus{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.socialmediaV2{
+    display: flex;
+    justify-content: center;
+}
+
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;  
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}  
+.infoV1{
+    display: flex;
+    font-size: medium;
+    gap: 300px;
+    justify-content: start;
+}
+.copyright{
+    text-align: center;
+    margin-top: -50px;
+    font-size: smaller;
+}
+.navButton {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.SUVcollection{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding-top: 50px;
+}
+.SUVcollection p{
+    margin-top: 50px;
+    color: black;
+}
+.box-container{
+   
+    width: 350px;
+    height: 350px;
+    margin: auto;
+}
+.box{
+    width: 350px;
+    height: 350px;
+}
+.x1{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(White-SUV-PNG-Picture.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.x1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.x2{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(OIP\ \(1\).jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.x2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.x3{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(OIP\ \(2\).jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.x3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.x4{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(R.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.x4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.v1{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(R\ \(1\).png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.v1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.v2{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(R\ \(2\).png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.v2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.v3{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(OIP.jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.v3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.v4{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(OIP\ \(3\).jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.v4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.a1{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(R\ \(3\).png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.a2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.a2{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(R\ \(4\).png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.a2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.a3{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(R\ \(5\).png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.a3 img{
+ height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.a4{
+    margin:15px  auto;
+height: 200px;
+width: 200px;
+background-image: url(R\ \(6\).png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.a4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.pricecars{
+    width: 100%;
+}
+.pricecars h3{
+   text-align: center;
+}
+.pricecars .price{
+    text-align: center;
+}
+.booking{
+    width: 80px;
+    height: 40px;
+    background-color: #ff0000;
+}
+
+.reservation{
+    margin: -80px auto ;
+    border-radius: 30px;
+    width: 80%;
+    height: 50vh;
+    background-image: url(reservation.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r1{
+    border-radius: 30px;    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.5);
+}
+.r1 h2{
+    margin: 15px 15px;
+    font-family: sans-serif ;
+    color: red;
+}
+.lab{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lab1 p{    
+    margin-top: 0;
+    font: 1.2em sans-serif;
+}
+.lab2 p{
+    margin-top: 0;
+    font: 1.2em sans-serif;
+}
+
+
+.info{
+    margin: auto;
+    margin-top: 90px;
+    width: 90%;
+    height: 60vh;
+}
+.info h1{
+    padding-top: 10px;
+    text-align: center;
+    font: bold 2.3em sans-serif;
+    color: red;
+}
+.infop{
+    font: 1.1em sans-serif;
+    text-align: center;
+}
+.c{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.price{
+    width: 170px;
+    height: 230px;
+}
+.price h3{
+    text-align: center;
+    margin: 10px 0px;
+    font: bold  1.3em sans-serif;
+}
+.price p{
+    font:  1em sans-serif;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+}
+.crcl{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 0, 0);
+    border-radius: 100%;
+}
